@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{915556a5-2417-42fc-9972-48b188e983b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{0b362c37-5494-40ba-a318-192529c437b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Game">
+      <UniqueIdentifier>{59d1c508-4f6a-4885-91ec-6138daf28689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Directx">
+      <UniqueIdentifier>{5ea72f23-f41a-4442-91f5-43f639bc572b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\TextureManager">
+      <UniqueIdentifier>{6198c8a3-5aab-4c46-9682-3d60d493faa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Trace">
+      <UniqueIdentifier>{34c097f5-bdf6-4311-92a8-3b76452a60d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sprite">
+      <UniqueIdentifier>{098e439e-bf4a-4cf7-816a-3d6eab1b212a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ReadXML">
+      <UniqueIdentifier>{d76bb8f0-b4d2-4667-a819-b18ec6bd2dca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>FrameWork\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>FrameWork\Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>FrameWork\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.cpp">
+      <Filter>FrameWork\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="readXML.cpp">
+      <Filter>FrameWork\ReadXML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>FrameWork\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>FrameWork\Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>FrameWork\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>FrameWork\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="readXML.h">
+      <Filter>FrameWork\ReadXML</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
